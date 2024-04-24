@@ -87,7 +87,7 @@ print(result,unans)
 ```
 ## Output
 
-Ping Command:
+Ping Command:\n
 
 CLIENT:
 
