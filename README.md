@@ -27,6 +27,7 @@ This commands includes
 <BR>
 PROGRAM:
 Ping Command
+
 CLIENT:
 ```
 import socket 
@@ -51,6 +52,7 @@ while True:
         print("Error:", e)
     finally:
         c.close()
+```
 
 
 
@@ -59,7 +61,6 @@ while True:
 ```
 
 SERVER:
-```
 import socket
 s = socket.socket()
 s.connect(('localhost', 8000))
@@ -77,6 +78,8 @@ except Exception as e:
 finally:
     s.close()
 
+```
+
 
 
 
@@ -84,11 +87,12 @@ finally:
 
 ```
 TRACE ROUTE COMMAND
-```
 from scapy.all import *
 target = ["www.google.com"]
 result, unans = traceroute(target,maxttl=32)
 print(result,unans)
+
+```
 
 
 
