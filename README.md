@@ -52,9 +52,13 @@ while True:
     finally:
         c.close()
         ```
+        
+
+        
+        
         SERVER:
-        ```
-        import socket
+        
+     ```   import socket
 s = socket.socket()
 s.connect(('localhost', 8000))
 try:
@@ -70,14 +74,17 @@ except Exception as e:
     print("Error:", e)
 finally:
     s.close()
+
+
     ```
+    
     TRACE ROUTE COMMAND
-    ```
-    from scapy.all import *
+
+  ```  from scapy.all import *
 target = ["www.google.com"]
 result, unans = traceroute(target,maxttl=32)
 print(result,unans)
-    ```
+```
 ## Output
 Ping Command:
 CLIENT:
