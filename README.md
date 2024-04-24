@@ -57,10 +57,10 @@ while True:
 
 
 
+SERVER:
 
 ```
 
-SERVER:
 import socket
 s = socket.socket()
 s.connect(('localhost', 8000))
@@ -83,10 +83,10 @@ finally:
 
 
 
+TRACE ROUTE COMMAND
 
 
 ```
-TRACE ROUTE COMMAND
 from scapy.all import *
 target = ["www.google.com"]
 result, unans = traceroute(target,maxttl=32)
@@ -96,7 +96,7 @@ print(result,unans)
 
 
 
-```
+
         
        
 ## Output
@@ -106,10 +106,12 @@ Ping Command:\n
 CLIENT:
 
 ![image](https://github.com/DHARANIDHARAN03K/4.Execution_of_NetworkCommends/assets/144870858/e5ebdf62-e83c-4479-82f0-e732b3c9f927)
-SERVER:\n
+
+SERVER:
+
 ![image](https://github.com/DHARANIDHARAN03K/4.Execution_of_NetworkCommends/assets/144870858/49d69cb1-2549-456c-a9ee-517146dfe838)
 
-Trace route command :\n
+Trace route command :
 ![image](https://github.com/DHARANIDHARAN03K/4.Execution_of_NetworkCommends/assets/144870858/f61b5dd2-c3a3-479d-98b7-99f24a0e9a33)
 
 
